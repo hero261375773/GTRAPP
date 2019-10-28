@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="order_plan_date">
+        <item>今日</item>
+        <item>昨日</item>
+        <item>明日</item>
+    </string-array>
+
+
+    <string-array name="order_type">
+        <item>全部</item>
+        <item>长期</item>
+        <item>临时</item>
+    </string-array>
+
+    <string-array name="administration">
+        <item>全部</item>
+        <item>静滴</item>
+        <item>肌注</item>
+        <item>口服</item>
+        <item>其它</item>
+    </string-array>
+
+    <string-array name="zt">
+        <item>全部</item>
+        <item>已执行</item>
+        <item>未执行</item>
+    </string-array>
+
+</resources>

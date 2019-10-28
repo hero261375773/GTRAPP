@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.a8_hk.gtrapp.LoginActivity">   //com.a8_hk.myapplication.MainActivity
+
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/activity_patient_info"  android:id="@+id/include_patient_info"/>//上来先显示患者列表
+    <include layout="@layout/activity_patrol"  android:id="@+id/include_patient_patrol" android:visibility="gone"/>//护理巡视
+    <include layout="@layout/activity_check" android:id="@+id/include_check_orders" android:visibility="gone"/>//医嘱审核
+    <include layout="@layout/activity_order" android:id="@+id/include_exe_orders" android:visibility="gone"/>//医嘱页面
+    <!--<android.support.design.widget.FloatingActionButton android:id="@+id/fab"-->//此行用于显示下面的提示框
+        <!--android:layout_width="wrap_content" android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end" android:layout_margin="@dimen/fab_margin"-->
+        <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</android.support.design.widget.CoordinatorLayout>

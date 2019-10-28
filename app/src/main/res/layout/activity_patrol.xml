@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="56dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="巡   视   项   目"
+            android:background="@color/colorFontPatientInfo2"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="正常"/>
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="吸氧"/>
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="输液"/>
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="伤口"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="意识"/>
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="瞳孔"/>
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="外出"/>
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="引流管"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="左侧卧位"/>
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="右侧卧位"/>
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="平卧位"/>
+        <CheckBox
+            android:id="@+id/cb_activity_patrol_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:background="@color/奶黄"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="端坐位"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:text="巡   视   记   录"
+            android:background="@color/colorFontPatientInfo2"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn_activity_patrol"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:text="  确认巡视  "
+            android:background="@color/colorFontPatientInfo2"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginLeft="3dp"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="2dp"
+        android:background="#9933CC">
+        <ListView
+            android:id="@+id/lv_patrol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

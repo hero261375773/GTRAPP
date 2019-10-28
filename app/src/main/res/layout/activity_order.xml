@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.a8_hk.gtrapp.OrderActivity"
+    android:layout_marginTop="56dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/刷新患者列表"
+        >
+        <Spinner
+            android:id="@+id/spinner_order_plan_date"
+            android:layout_width="wrap_content"
+            android:spinnerMode="dialog"
+            android:padding="0dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <!--android:entries="@array/order_plan_date"-->
+
+
+        <Spinner
+            android:id="@+id/spinner_order_type"
+            android:layout_width="wrap_content"
+            android:spinnerMode="dialog"            android:padding="0dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <!--android:entries="@array/order_type"-->
+
+        <Spinner
+            android:id="@+id/spinner_order_administration"
+            android:layout_width="wrap_content"
+            android:spinnerMode="dialog"            android:padding="0dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <!--android:entries="@array/administration"-->
+
+
+        <Spinner
+            android:id="@+id/spinner_order_zt"
+            android:layout_width="wrap_content"
+            android:spinnerMode="dialog"            android:padding="0dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <!--android:entries="@array/zt"-->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        >
+        <ListView
+            android:id="@+id/orders_exe_listView_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#a9a9a9"
+            android:dividerHeight="3px"
+            >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+     <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:layout_weight="1"
+    android:text="备注"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="执行"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="撤销"/>
+    </LinearLayout>
+
+</LinearLayout>
